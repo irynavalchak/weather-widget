@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+}
+button {
+    width: 100px;
+    height: 50px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url("images/mark-stuckey-gpw6GTQsw-8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-widget {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget {
+    width: 1000px;
+    height: 700px;
+    background-image: url("images/mark-stuckey-mGx3QmEg-mo-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #014ea6;
+    border-radius: 150px;
+    box-shadow: 30px 30px 30px rgba(29, 90, 145, 0.9);
+}
+
+.widget::before {
+    content: "";
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #014ea6;
+    opacity: 0.6;
+    border-radius: 150px;
+}
+
+.widget img {
+    position: relative;
+    z-index: 1;
+}
+
+.widget span {
+    position: relative;
+    z-index: 2;
+}
+
+.widget p {
+    position: relative;
+    z-index: 2;
+}
+
+.block-img {
+    text-align: center;
+}
+
+.block-img span:first-of-type {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #aeafc3;
+}
+
+.block-img span:last-of-type {
+    font-size: 100px;
+    color: #dce8fa;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.block-data {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-data p {
+    font-size: 25px;
+    color: #acb1c3;
+    font-weight: 600;
+}
+
+.block-data span {
+    font-size: 45px;
+    margin-bottom: 2px;
+    color: #fee72e;
+}
+
+.block-temperature {
+}
+
+.block-other {
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+#imgSunCloudy, #imgCloudy, #imgSunClear {
+    display: none;
+}
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="section-widget">
+    <div class="widget">
+        <div class="block-data">
+            <div class="block-temperature">
+                <p>Мін: </p>
+                <span id="tempMin"></span><br>
+                <p>Макс: </p>
+                <span id="tempMax"></span><br>
+                <p>Відчувається: </p>
+                <span id="feelsLike"></span><br>
+            </div>
+            <div class="block-img">
+                <img id="imgCloudy" src="images/imgCloudy.png" alt="">
+                <img id="imgSunCloudy" src="images/imgSunCloudy.png" alt="">
+                <img id="imgSunClear" src="images/imgSunClear.png" alt="">
+                <span id="rain"></span><br>
+                <span id="temperature"></span><br>
+            </div>
+            <div class="block-other">
+                <p>Тиск: </p>
+                <span id="pressure"></span><br>
+                <p>Вологість: </p>
+                <span id="humidity"></span><br>
+                <p>Вітер: </p>
+                <span id="wind"></span>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="result"></div>
+<script src="script.js"></script>
+</body>
+</html>
